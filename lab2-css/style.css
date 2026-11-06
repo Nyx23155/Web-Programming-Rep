@@ -1,6 +1,5 @@
-.list
-{
-    list-style-type: "😃";
+.list {
+    list-style-type: "😃 ";
 }
 
 .flex-container {
@@ -24,4 +23,27 @@
 
 .tall {
     height: 160px;
+}
+
+.position-example {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    width: fit-content;
+    padding: 12px;
+    background-color: lightgreen;
+}
+
+.float-example {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin: 0 12px 8px 0;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 120px;
+}
+
+.clear-float {
+    clear: both;
 }
