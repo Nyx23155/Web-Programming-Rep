@@ -1,0 +1,11 @@
+.lab-item
+{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(250, 134, 2);
+}
+
+.lab-item:hover
+{
+    background-color: rgb(255, 0, 0);
+}
