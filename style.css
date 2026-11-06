@@ -1,11 +1,50 @@
-.lab-item
-{
-    width: 100px;
-    height: 40px;
-    background-color: rgb(250, 134, 2);
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    color: #1A1033;
+    background-color: #F5F3FF;
+    margin: 0;
+    padding: 40px;
 }
 
-.lab-item:hover
-{
-    background-color: rgb(255, 0, 0);
+h1 {
+    color: #2A1B5D;
+    text-align: center;
+    margin-top: 1cm;
+}
+
+.lab-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.lab-list li {
+    margin: 14px 0;
+}
+
+.lab-item {
+    display: inline-block;
+    background-color: #2A1B5D;
+    border-radius: 10px;
+    transition: background-color 0.4s, transform 0.4s;
+}
+
+.lab-item a {
+    display: block;
+    padding: 10px 28px;
+    color: #FFC93C;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.lab-item:hover {
+    background-color: #FFC93C;
+    transform: scale(1.05);
+}
+
+.lab-item:hover a {
+    color: #2A1B5D;
 }
